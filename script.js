@@ -1,4 +1,4 @@
-let day = prompt('Lutfen bir gun ismi giriniz');
+let day = prompt('Lutfen bir gun ismi giriniz: ( ingilizce klavye kullaniniz )');
 
 const weekdays = ['pazartesi', 'sali', 'carsamba', 'persembe', 'cuma']
 const weekend = ['cumartesi', 'pazar']
