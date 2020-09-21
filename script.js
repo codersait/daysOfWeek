@@ -5,12 +5,12 @@ const weekend = ['cumartesi', 'pazar']
 const result = document.querySelector('.result')
 
 
-if (weekdays.indexOf(day.toLowerCase()) != -1) {
+if (weekdays.indexOf(day.toLowerCase().trim()) != -1) {
     result.style.color = 'yellow'
     result.style.fontSize = '1.5rem'
     result.textContent = `${day} bir hafta ici gunudur`
 
-} else if (weekend.indexOf(day.toLowerCase()) != -1) {
+} else if (weekend.indexOf(day.toLowerCase().trim()) != -1) {
     result.style.color = 'blue'
     result.style.fontSize = '1.5rem'
     result.textContent = `${day} bir hafta sonu gunudur`
