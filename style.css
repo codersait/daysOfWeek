@@ -1,0 +1,18 @@
+.container{
+    display: grid;
+    
+    text-align: center;
+    margin: 10vh auto 20vh;
+    /* border: 1px solid red; */
+    place-items: center;
+    /* color: white;
+    background-color: limegreen; */
+}
+.result {
+    color: white;
+    background-color: limegreen;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+}
